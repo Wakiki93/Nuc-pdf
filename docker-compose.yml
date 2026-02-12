@@ -1,0 +1,8 @@
+services:
+  nucleireport:
+    build: .
+    volumes:
+      - ./data:/data
+    # Default: show help. Override with:
+    #   docker compose run nucleireport generate -i scan.jsonl -o report.pdf
+    command: ["--help"]

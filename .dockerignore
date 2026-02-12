@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+.pytest_cache
+sample_data/*.pdf
+validate_*.py
+tests/
+docs/
+.git
